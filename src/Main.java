@@ -116,7 +116,6 @@ public class Main {
                     }
                 }
                 System.out.println();
-
                 for (int i = secondArray.length - 1; i >= 0; i--) {
                     System.out.print(secondArray[i]);
                     if (i > 0) {
