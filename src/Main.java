@@ -139,18 +139,16 @@ public class Main {
                     }
                 }
                 System.out.println("Task 4");
-           import Arrays;
-                public class Main {
-                    public static void main(String[] args) {
-                        int[] firstArray = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-                        for (int i = 0; i < firstArray.length; i++) {
-                            if (firstArray[i] % 2 != 0) {
-                                firstArray[i] = firstArray[i] + 1;
-                                System.out.println(Arrays.toString(firstArray));
-                            }
-                        }
+                int[] arr = {1, 2, 3};
+                System.out.println(Arrays.toString(arr));
+                for (int i = 0; i < arr.length; i++) {
+                    if (arr[i] % 2 != 0) {
+                        arr[i] = arr[i] + 1;
                     }
                 }
+
+                System.out.println("Измененный массив: " + Arrays.toString(arr));
             }
         }
     }
+}
